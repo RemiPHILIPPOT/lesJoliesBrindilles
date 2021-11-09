@@ -11337,8 +11337,11 @@ p {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0;
+  /* padding: 0; */
+  padding-right: 1rem;
   border-radius: 100%;
+
+  
 }
 @font-face {font-family: "Brixton Outline"; src: url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.eot"); src: url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.woff") format("woff"), url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.svg#Brixton Outline") format("svg"); }
 
