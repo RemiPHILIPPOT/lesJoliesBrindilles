@@ -38,6 +38,7 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     };
 
+
     // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');
     const responsiveNavItems = [].slice.call(
@@ -52,3 +53,25 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+document.addEventListener("scroll", function () {
+    const navbar = document.querySelector(".navbar");
+    const navbarHeight = 100;
+
+    const distanceFromTop = Math.abs(
+      document.body.getBoundingClientRect().top
+    );
+    if (distanceFromTop >= navbarHeight) navbar.classList.add("fixed");
+    else navbar.classList.remove("fixed");
+  });
+
+
+  window.addEventListener('scroll', function() {
+    document.getElementById('showScroll').innerHTML = window.pageYOffset + 'px';
+  });
+
+  //Lorsque je scroll le menu apparait et changement de colour du texte
+
+  
+
+  
