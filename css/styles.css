@@ -652,7 +652,7 @@ progress {
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
-    max-width: 720px;
+    max-width: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -11857,7 +11857,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   width: 400px;
   height:400px;
 } */
-
+@media (max-width :768px) {
+  .jambon{
+    margin-top: 120px;
+  }
+  
+}
 .jambon{
   width: 100%;
 
