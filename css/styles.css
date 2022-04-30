@@ -4046,7 +4046,7 @@ textarea.form-control-lg {
 }
 @media (max-width:768px) {
   .navbar .container{
-    background-color: rgba(235,215,215,255);
+    background-color: rgb(120, 70, 85); ;
   }
   
 }
