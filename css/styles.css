@@ -243,7 +243,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: rgb(82, 74, 76);
+  color: rgb(236, 229, 231);
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3959,7 +3959,8 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: rgb(120, 70, 85);
+  color: rgba(235,215,215,255);
+
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -4005,7 +4006,7 @@ textarea.form-control-lg {
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: rgb(120, 70, 85);
+  color: rgba(235,215,215,255);
   background-color: #ffc800;
 }
 
@@ -4462,6 +4463,7 @@ textarea.form-control-lg {
 }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
   color: rgba(0, 0, 0, 0.7);
+  
 }
 .navbar-light .navbar-nav .nav-link.disabled {
   color: rgba(0, 0, 0, 0.3);
@@ -4487,23 +4489,28 @@ textarea.form-control-lg {
 }
 
 .navbar-dark .navbar-brand {
-  color: rgb(120, 70, 85);
+  /* color: rgb(120, 70, 85); */
+  color: rgba(235,215,215,255);
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: rgb(120, 70, 85);
+  /* color: rgb(120, 70, 85); */
+  color: rgba(235,215,215,255);
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgb(120, 70, 85);
+  /* color: rgb(120, 70, 85); */
+  color: rgba(235,215,215,255);
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color:rgb(120, 70, 85);
+  /* color:rgb(120, 70, 85); */
+  color: rgba(235,215,215,255);
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
   color: rgba(255, 255, 255, 0.25);
 }
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: rgb(120, 70, 85);
+  /* color: rgb(120, 70, 85); */
+  color: rgba(235,215,215,255);
 }
 .navbar-dark .navbar-toggler {
   color: #fff;
@@ -4725,6 +4732,7 @@ textarea.form-control-lg {
 }
 .accordion-button:hover {
   z-index: 2;
+  color: rgba(235,215,215,255);
 }
 .accordion-button:focus {
   z-index: 3;
@@ -11396,7 +11404,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: rgb(120, 70, 85);
+  color: rgb(236, 229, 231);
   font-weight: bold;
 }
 
@@ -11405,7 +11413,10 @@ p {
     /* padding-top: 1.5rem;
     padding-bottom: 1.5rem; */
     border: none;
-    /* background-color: rgba(235,215,215,255); */
+    /* background-color: rgba(235,215,215,255);
+     */
+     background-color: rgb(120, 70, 85);
+
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -11441,7 +11452,7 @@ header.masthead {
   /* padding-top: 25rem;
   padding-bottom: 25rem; */
   text-align: center;
-  color: rgb(120, 70, 85);
+  /* color: rgb(120, 70, 85); */
   /* background-image: url("../assets/img/IMG_7014.jpeg"); */
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11819,7 +11830,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   /* text-align: center; */
 }
 .social-icon:hover{
-  color:rgb(173, 101, 123);
+  /* color:rgb(173, 101, 123); */
+  color: rgba(235,215,215,255);
   font-weight: bolder;
 }
 @font-face {font-family: "Brixton"; src: url("//db.onlinewebfonts.com/t/e0f884a4db998d1c4eedf5e55d5398b5.eot"); src: url("//db.onlinewebfonts.com/t/e0f884a4db998d1c4eedf5e55d5398b5.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e0f884a4db998d1c4eedf5e55d5398b5.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e0f884a4db998d1c4eedf5e55d5398b5.woff") format("woff"), url("//db.onlinewebfonts.com/t/e0f884a4db998d1c4eedf5e55d5398b5.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e0f884a4db998d1c4eedf5e55d5398b5.svg#Brixton") format("svg"); }
@@ -11833,7 +11845,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 }
 .changecolorlol{
-  color: rgb(120, 70, 85);
+  /* color: rgb(120, 70, 85); */
 
 }
 
@@ -11865,9 +11877,19 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 .jambon{
   width: 100%;
+  height: 600px;
+  object-fit: cover;
+  object-position: top;
 
 }
 .changelogo{
   background-image: url(/assets/img/logo/Les\ Jolies\ Brindilles.svg);
 
+}
+#linkcolor:hover{
+  color: rgba(235,215,215,255);
+}
+
+.button-color:hover{
+  color: rgb(236, 229, 231);
 }
